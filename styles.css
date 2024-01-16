@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainContainer{
+    display: flex;
+    /* border: 2px solid green ; */
+    width: 98%;
+    height: 100vh;
+
+
+}
+
+#addNote{
+    /* border: 2px solid red; */
+    background-color: #D1DCE7;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+
+#addTextColor{
+    margin-left: 2vw;
+    /* border: 2px solid green; */
+    height: 39vh;
+    width:46vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#note{
+    box-shadow: rgba(217, 47, 56, 0.422) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(185, 67, 67, 0.459) 0px -2px 6px 0px inset;
+}
+
+#color{
+    height: 15vh;
+    /* border: 2px solid brown; */
+    display: block;
+    margin-left: 2vw;
+   
+}
+#color input{
+    margin: auto;
+    height: 5vh;
+    width: 5vw;
+}
+
+#noteButton{
+    width: 100px;
+}
+
+
+#noteButton{
+    background: linear-gradient(to right, #ED709B, #EC8773);
+    color: white;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 8vh;
+    width: 10vw;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transform: background 1s ease-in-out;
+}
+#noteButton:hover{
+   background: linear-gradient(to left , #FB9643, #F72964);
+}
+
+
+#notesContainer{
+    /* border: 2px solid blue; */
+    width: 50%;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#notesContainer h2{
+  margin-top: 20px;
+}
+
+
+
+.contain{
+    /* border: 2px solid green; */
+    width: 97%;
+    height: 10vh;
+    display:flex;
+    margin-top: 2vh;
+    margin-left: 10px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.text{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 91%;
+    /* border: 2px solid red; */
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    margin-left: 10px;
+}
+.delete{
+    border: 1px solid white;
+    /* border: 2px solid green; */
+    display: flex;
+    width: 3vw;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+}
+.delete:hover{
+     cursor: pointer;
+}
+
+
